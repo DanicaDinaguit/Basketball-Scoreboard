@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://www.fontspace.com/cursed-timer-ulil-font-f29411">
+        <link rel="stylesheet" href="index.css">
+        <title>Basketball Scoreboard</title>
+    </head>
+    <body>
+        <h1 class="middle">Basketball Scoreboard</h1>
+        <div class="container">
+            <div class="backgroundpic"> 
+                <div class="center">
+                    <h3>HOME</h3>
+                    <p id="home-count">0</p>
+                    <button class="btncolor" name="increment-+1" onclick="plusone()">+1</button>
+                    <button class="btncolor" name="increment-+2" onclick="plustwo()">+2</button>
+                    <button class="btncolor" name="increment-+3" onclick="plusthree()">+3</button>
+                </div>
+                <div class="center">
+                    <h3>GUEST</h3>
+                    <p id="guest-count">0</p>
+                    <button class="btncolor" name="increment-+1" onclick="guestplusone()">+1</button>
+                    <button class="btncolor" name="increment-+2" onclick="guestplustwo()">+2</button>
+                    <button class="btncolor" name="increment-+3" onclick="guestplusthree()">+3</button>
+                </div> 
+            </div>  
+        </div>
+        <br>
+        <div class="cent"><button name="newgame" onclick="newgame()">New Game</button></div>
+        <script src="index.js"></script>
+    </body>
+</html>
